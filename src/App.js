@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
 import './App.css'
 
 class App extends Component {
@@ -20,12 +21,13 @@ class App extends Component {
             </div>
             <div id="navbar" className="navbar-collapse collapse">
               <ul className="nav navbar-nav">
-                <li className="active"><a href="#">Home</a></li>
-                <li><a href="#">Submit a Recipe</a></li>
+                <li className="active"><Link to="/">Home</Link></li>
+                <li><Link to="/submit">Submit a Recipe</Link></li>
               </ul>
             </div>
           </div>
         </nav>
+        {this.props.children}
       </div>
       </div>
     )
