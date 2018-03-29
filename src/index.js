@@ -12,7 +12,6 @@ const history = createBrowserHistory()
 
 ReactDOM.render(
     <Router history={history}>
-        <div>
             <div className="container">
 
                 <nav className="navbar navbar-default">
@@ -34,11 +33,9 @@ ReactDOM.render(
                         </div>
                     </div>
                 </nav>
+                <Route exact path="/" component={Home} />
+                <Route path="/submit" component={Submit} />
             </div>
-
-        <Route exact path="/" component={Home} />
-        <Route path="/submit" component={Submit} />
-        </div>
     </Router>, 
     document.getElementById('root'))
 registerServiceWorker()
