@@ -8,7 +8,6 @@ class IngrediantList extends Component {
         })
         return display
     }
-   
 
     render() {  //console.log(this.props.recipe.items)
         return (
