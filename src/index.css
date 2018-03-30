@@ -8,3 +8,7 @@ body {
   color: #555 !important;
   background-color: #e7e7e7 !important;
 }
+
+.thumbnail {
+  min-height: 300px;
+}
