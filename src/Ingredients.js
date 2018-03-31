@@ -20,14 +20,13 @@ class Ingredients extends Component {
     render() {
         return (
             <div className="inline-form form-group">
-                <label htmlFor="quantity">Quantity</label>
+                <label id="quan" htmlFor="quantity">Quantity</label>
                 <input type="text" id="quantity" 
                 ref={(input) => {this.quantity = input}} />
         
-                <label htmlFor="ingredient">Ingredient
+                <label id="ingre" htmlFor="ingredient">Ingredient</label>
                 <input type="text" id="ingredient"
                 ref={(input) => {this.ingredient = input}} /> 
-                </label>
                 <button type="button" className="btn btn-info" onClick={this.addIngredients}>Add</button>
             </div>
         )

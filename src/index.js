@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
 import Home from './Home'
 import Submit from './Submit'
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom"

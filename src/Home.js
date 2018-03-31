@@ -31,6 +31,9 @@ class Home extends Component {
     render() {
         return (
             <div className="row">
+                <div className="col-md-12">
+                    <h1>Recipes</h1>
+                </div>
                 {this.displayRecipes()}
             </div>
         )

@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 10px;
   font-family: sans-serif;
-}
+  background: #34e89e;  /* fallback for old browsers */
+  }
 
 .activeNav {
   color: #555 !important;
@@ -10,5 +11,45 @@ body {
 }
 
 .thumbnail {
-  min-height: 300px;
+  min-height: 350px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+.btn-info {
+  margin-left: 20px;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 350%;
+}
+
+#quan {
+  margin-right: 10px;
+}
+
+#ingre {
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 660px) {
+  /* .btn-info {
+    margin-left: 0px;
+    display: block;
+  } */
+
+  #quan {
+    margin-right: 10px;
+    display: block;
+  }
+  
+  #ingre {
+    margin-right: 10px;
+    margin-left: 0px;
+    display: block;
+  }  
 }
