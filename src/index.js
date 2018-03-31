@@ -32,8 +32,8 @@ ReactDOM.render(
                         </div>
                     </div>
                 </nav>
-                <Route exact path="/" component={Home} />
-                <Route path="/submit" component={Submit} />
+                <Route exact path="/simply-exotic" component={Home} />
+                <Route path="/simply-exotic/submit" component={Submit} />
             </div>
     </Router>, 
     document.getElementById('root'))
