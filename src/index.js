@@ -22,12 +22,12 @@ ReactDOM.render(
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <NavLink className="navbar-brand" to="/">Simply Exotic</NavLink>
+                        <NavLink className="navbar-brand" to="/simply-exotic">Simply Exotic</NavLink>
                         </div>
                         <div id="navbar" className="navbar-collapse collapse">
                         <ul className="nav navbar-nav">
-                            <li><NavLink exact activeClassName="activeNav" to="/">Home</NavLink></li>
-                            <li><NavLink activeClassName="activeNav" to="/submit">Submit a Recipe</NavLink></li>
+                            <li><NavLink exact activeClassName="activeNav" to="/simply-exotic">Home</NavLink></li>
+                            <li><NavLink activeClassName="activeNav" to="/simply-exotic/submit">Submit a Recipe</NavLink></li>
                         </ul>
                         </div>
                     </div>
